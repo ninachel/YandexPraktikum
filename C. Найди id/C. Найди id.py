@@ -6,7 +6,6 @@ with open('input.txt', 'r', encoding="utf8") as fin:
         infinity = float("inf")
         users.sort()
         users.append(infinity)
-        users.append(infinity)
         res = []
         for x in range(1, int(n) + 1):
             if users[x - 1] != x:
